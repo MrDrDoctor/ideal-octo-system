@@ -1,0 +1,52 @@
+
+img {
+
+max-width: 100%;
+
+}
+
+figure {
+
+margin: 0;
+}
+
+@media screen and (min-width: 320px) {
+    body {
+        background-color: hotpink;
+    }
+
+}
+@media screen and (min-width: 480px) {
+    body {
+        background-color: lightyellow;
+        margin: 2px;
+    }
+    
+}
+@media screen and (min-width: 794px) {
+    body {
+        background-color: greenyellow;
+        font-size: 11.69px;
+        margin: 40px;
+    }
+    h1{
+        font-size: 70px;
+    }
+    h2{
+        font-size: 70px;
+    }
+}
+@media screen and (min-width: 1020px) {
+    body {
+        background-color: aquamarine;
+        font-size: 14px;
+        margin: 50px;
+        max-width: 1200px;
+    }
+    h1{
+        font-size: 70px;
+    }
+    h2{
+        font-size: 70px;
+    }
+}
